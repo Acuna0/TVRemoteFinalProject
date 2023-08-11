@@ -44,8 +44,6 @@ class TVremote(QMainWindow, MainUiWindow):
         self.pushButton_digit7.clicked.connect(lambda: self.change_channel(7))
         self.pushButton_digit8.clicked.connect(lambda: self.change_channel(8))
         self.pushButton_digit9.clicked.connect(lambda: self.change_channel(9))
-        # Add just a single ChangeChannel function call and add parameter of the button clicked to change channel
-        # to that to simplify
 
         self.image_display.hide()
         self.video_widget.hide()
